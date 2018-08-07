@@ -56,3 +56,5 @@ def self.artist_count
   return gencount
 end
 end
+
+end
