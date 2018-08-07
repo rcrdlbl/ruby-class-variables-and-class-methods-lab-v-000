@@ -39,7 +39,6 @@ class Song
     end
     return gencount
   end
-end
 
 
   def self.artist_count
