@@ -26,15 +26,15 @@ class Song
     @@artists.uniq
   end
 
-  def genre_count
-    @@genres.each do |genre|
-      count = {}
-      if count.has_key?(genre)
-        count[genre] += 1
-      else
-        count[genre] = 1
-      end
-      return count
-    end
-  end
+  # def genre_count
+  #   @@genres.each do |genre|
+  #     count = {}
+  #     if count.has_key?(genre)
+  #       count[genre] += 1
+  #     else
+  #       count[genre] = 1
+  #     end
+  #     return count
+  #   end
+  # end
 end
