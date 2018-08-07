@@ -40,3 +40,19 @@ class Song
     return gencount
   end
 end
+
+
+def self.artist_count
+  gencount = {}
+  @@artists.each do |artist|
+
+    if gencount.has_key?(artist)
+      gencount[artist] += 1
+    else
+      gencount[artist] = 1
+    end
+
+  end
+  return gencount
+end
+end
